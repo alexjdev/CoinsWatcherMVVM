@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">CoinsWatcherMVVM</string>
+
+    <string name="main_coins_list_fragment_title">Top 100 coins:</string>
+
+    <string name="coins_detail_fragment_title">More details about selected coin</string>
+    <string name="coins_detail_fragment_button_add_signal">Add signals</string>
+
+    <string name="settingsFragment_title">Settings</string>
+    <string name="settingsFragment_min_request_period">Please, choose minimal data request period:</string>
+    <string name="settingsFragment_btn_1min_period">1 minute(TEST ONLY)</string>
+    <string name="settingsFragment_btn_15min_period">15 minutes</string>
+    <string name="settingsFragment_btn_30min_period">30 minutes</string>
+    <string name="settingsFragment_btn_60min_period">1 hour</string>
+
+    <string name="aboutFragment_title">About app.</string>
+    <string name="aboutFragment_descr">This application was developed while author studying Kotlin and development for android</string>
+    <string name="aboutFragment_author">Author: alex_jdev@mail.ru</string>
+
+    <string name="addEditSignalFragment_title">Add or edit signal</string>
+    <string name="addEditSignalFragment_check_add_current_prices">Add current prices in fields for signals</string>
+    <string name="addEditSignalFragment_usd_take_profit">Take profit(USD)</string>
+    <string name="addEditSignalFragment_usd_stop_loss_profit">Stop Loss(USD)</string>
+    <string name="addEditSignalFragment_btc_take_profit">Take profit(BTC)</string>
+    <string name="addEditSignalFragment_btc_stop_loss_profit">Stop Loss(BTC)</string>
+    <string name="addEditSignalFragment_button_save">Save changes</string>
+    <string name="addEditSignalFragment_button_remove">Remove signal</string>
+    <string name="addEditSignalFragment_text_info">Set 0 in all fields and press button \" Save changes \" if you want to delete the signal</string>
+
+    <string name="signalsListFragment_title">All available signals</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="BITCOIN_SYMBOL">\u20BF</string>
+    <string name="DOLLAR_SYMBOL">\u0020</string>
+
+</resources>

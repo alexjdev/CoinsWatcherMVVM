@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.signal.SignalFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_signal_symbol"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+            android:text="SIGNAL" />
+
+        <TextView
+            android:id="@+id/tv_signal_type"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="TYPE" />
+
+        <TextView
+            android:id="@+id/tv_signal_current_price"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="CURRENT PRICE" />
+
+        <TextView
+            android:id="@+id/tv_signal_price"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="SIGNAL PRICE" />
+
+        <TextView
+            android:id="@+id/tv_signal_current_price_inf"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="CURRENT PRICE INF" />
+
+        <TextView
+            android:id="@+id/tv_signal_price_inf"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="SIGNAL PRICE INF" />
+
+        <!--  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_delete_signal"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Delete signal" />
+
+            <Button
+                android:id="@+id/button_remind_later"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Remind later" />
+        </LinearLayout>
+
+        <!--  -->
+
+        <!--  -->
+        <!--  -->
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

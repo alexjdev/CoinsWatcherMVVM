@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/mainCoinsListFragment">
+
+    <fragment
+        android:id="@+id/mainCoinsListFragment"
+        android:name="com.example.coinswatchermvvm.ui.maincoinslist.MainCoinsListFragment"
+        android:label="@string/main_coins_list_fragment_title"
+        tools:layout="@layout/main_coins_list_fragment" >
+        <action
+            android:id="@+id/actionDetail"
+            app:destination="@+id/coinDetailFragment" />
+        <action
+            android:id="@+id/actionSignal"
+            app:destination="@id/signalFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/coinDetailFragment"
+        android:name="com.example.coinswatchermvvm.ui.detail.CoinDetailFragment"
+        android:label="@string/coins_detail_fragment_title"
+        tools:layout="@layout/coin_detail_fragment" >
+        <argument
+            android:name="rank"
+            app:argType="integer" />
+        <action
+            android:id="@+id/actionAddSignal"
+            app:destination="@id/addEditSignalFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.coinswatchermvvm.ui.settings.SettingsFragment"
+        tools:layout="@layout/fragment_settings"
+        android:label="@string/settingsFragment_title" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.coinswatchermvvm.ui.about.AboutFragment"
+        tools:layout="@layout/fragment_about"
+        android:label="@string/aboutFragment_title" />
+
+    <fragment
+        android:id="@+id/addEditSignalFragment"
+        android:name="com.example.coinswatchermvvm.ui.addsignal.AddEditSignalFragment"
+        tools:layout="@layout/add_edit_signal_fragment"
+        android:label="@string/addEditSignalFragment_title" >
+        <argument
+            android:name="symbol"
+            app:argType="string" />
+    </fragment>
+
+    <!-- -->
+    <!-- -->
+    <fragment
+        android:id="@+id/signalsListFragment"
+        android:name="com.example.coinswatchermvvm.ui.signalslist.SignalsListFragment"
+        tools:layout="@layout/signals_list_fragment"
+        android:label="@string/signalsListFragment_title">
+    </fragment>
+    <!-- -->
+
+    <fragment
+        android:id="@+id/signalFragment"
+        android:name="com.example.coinswatchermvvm.ui.signal.SignalFragment"
+        tools:layout="@layout/signal_fragment"
+        android:label="signal_test_string">
+    </fragment>
+
+
+    <!--
+    <fragment
+        android:id="@+id/justTestFragment"
+        android:name="com.example.coinswatchermvvm.ui.justtest.JustTestFragment"
+        tools:layout="@layout/fragment_justtest"
+        android:label="JUST TEST title"/>
+
+    -->
+
+</navigation>

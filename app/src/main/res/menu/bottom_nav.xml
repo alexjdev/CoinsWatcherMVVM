@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainCoinsListFragment"
+        android:title="MainFrag" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="SettingsFrag" />
+
+    <item
+        android:id="@+id/aboutFragment"
+        android:title="AboutFrag" />
+
+    <!--
+    <item
+        android:id="@+id/justTestFragment"
+        android:title="JustTestFrag" />
+      -->
+
+    <!--  -->
+    <!--  -->
+    <item
+        android:id="@+id/signalsListFragment"
+        android:title="SignalsFrag" />
+    <!--  -->
+</menu>
